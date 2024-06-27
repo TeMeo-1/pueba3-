@@ -72,7 +72,7 @@ function completarFila(element,index,arr){
 
   arr[index] = document.querySelector("#tbl_usuario tbody").innerHTML +=
 `<tr>
-<td>${element.id_cliente}</td>
+<td>${element.id_usuario}</td>
 <td>${element.dv}</td>
 <td>${element.nombres}</td>
 <td>${element.apellidos}</td>
