@@ -65,7 +65,7 @@ fetch("http://144.126.210.74:8080/api/cliente", requestOptions)
   .then((result) => console.log(result))
   .catch((error) => console.error(error));
 }
-function listarcliente(){
+function listarCliente(){
   const requestOptions = {
     method: "GET",
     redirect: "follow"
